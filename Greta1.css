@@ -1,0 +1,14 @@
+.headerCon{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 25px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
