@@ -43,13 +43,14 @@ main {
     float: left;
     border: solid 1px #fff;
     display: inline-block;
-    margin-right: 10px;
+    margin-left: 400px;
 }
 .food-item{
     clear: both;
 }
 .food{
     float: right;
+    margin-right: 400px;
     display: inline-block;
     width: 200px;
     height: 200px;
