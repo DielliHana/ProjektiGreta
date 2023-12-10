@@ -8,11 +8,7 @@
 </head>
 <body>
     <script src="Prj.js"></script>
-    <header class="headerCon">
-        <div class="logo">
-            <img src="food-delivery-logo.jpg" alt="logo" height="75px" width="75px">
-            <p class="catalog"> D-Diner </p>
-        </div>
+    <header class="headerCont">
         <div class="topNav" id="topNav">
             <input class= "srch" type="text" placeholder="Search" style="height: 30px;">
             <button class="bP"><img src="search.png" alt=""></button>
@@ -23,47 +19,22 @@
         </div>
     </header>
     <main>
-        <!-- Menu Modal -->
-        <div id="menu" class="modal">
-        <div class="animate-zoom">
-            <div class="c-container b-black c-display-container">
-                <span onclick="document.getElementById('menu').style.display='none'" class="b-button c-display-topright large"> </span>
-                <h1>Starters</h1>
+        <div class="text-container">
+            <div class="mid-display">
+                <p>DE-Diner</p>
+                <img src="logo.png" alt="logo">
             </div>
-        <div class="c-container">
-            <h5>Tomato Soup <b>2.50€</b> </h5>
-            <h5>Chicken Salad <b>3.50€</b></h5>
-            <h5>Bread and Butter <b>1.50€</b></h5>
+            <div class="display-cont">
+                <p><button onclick="document.getElementById('menu').style.display='block'" class="b-button">menu</button></p>
+                <p><button onclick="document.getElementById('contact').style.display='block'" class="b-button">Contact</button></p>
+            </div>
+            <div class="display btmlf-cont">
+                <p class="orari"> Monday - Saturday: 08-22 </p>
+                <p class="rruga"> Rr. Vicianum, Dragodan - Prishtine </p>
+            </div>
         </div>
-        <div class="c-container b-black">
-            <h1>Main Courses</h1>
-        </div>
-        <div class="c-container">
-            <h5>Grilled Fish and Potatoes <b>8.50€</b></h5>
-            <h5>Italian Pizza <b>5.50€</b></h5>
-            <h5>Veggie Pasta <b>4.00€</b></h5>
-            <h5>Chicken and Potatoes <b>6.50€</b></h5>
-            <h5>Deluxe Burger <b>5.00€</b></h5>
-        </div>
-        <div class="c-container b-black">
-            <h1>Desserts</h1>
-        </div>
-        <div class="c-container">
-            <h5>Fruit Salad <b>2.50€</b></h5>
-            <h5>Ice Cream <b>2.00€</b></h5>
-            <h5>Chocolate Cake <b>4.00€</b></h5>
-            <h5>Cheese <b>5.50€</b></h5>
-        </div>
-     </div>
-  </div>
+
         <div class="bgPhoto"></div>
-        <table>
-            <tr>
-                Menu:
-            </tr>
-            <td><img class="stk" src="STEAK.jpg" alt="Steak"></td>
-            <td>Grilled Steak</td>
-        </table>
         <footer>
             <div class="f">
                 <h2>About DE-Diner</h2>

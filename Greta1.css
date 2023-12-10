@@ -18,7 +18,7 @@
         text-align: left;
     }
 }
-.headerCon{
+.headerCont{
     display: flex;
     justify-content:space-between;
     font-family: 'Times New Roman', Times, serif;
@@ -35,13 +35,16 @@
     width: 20%;
     margin-right: 25px;
 }
+body{
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
 .bgPhoto{
     display: flex;
-    justify-content: center;
-    text-align: center;
     background-image:url(homephto.jpg);
-    background-size: 100% 100%;
-    height: 300px;
+    background-position: center;
+    background-size:cover;
+    min-height: 100%;
 }
 button{
     padding-top: 0%;
@@ -58,7 +61,7 @@ button{
     
 }
 .bP{
-    background-color: darkgreen;
+    background-color: navy;
     display: flex;
     margin-top: 125px;
 }
@@ -66,12 +69,11 @@ button{
     overflow: hidden;
 }
 .topNav a:hover {
-    background-color: aliceblue
+    background-color: rgb(196, 220, 240)
     color(black);
 }
 .topNav a.active {
-    background-color: red;
-    color: white;
+    color: black;
 }
 .topNav .icon{
     display: none;
