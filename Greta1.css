@@ -44,13 +44,12 @@
     height: 300px;
 }
 button{
-    height: 30px;
     width: 30px;
     border: inset 0px;
 }
 
 .srch{
-    height: 30px;
+    margin-right: 200px;
     width: auto;
     
 }
