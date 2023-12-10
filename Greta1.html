@@ -7,28 +7,29 @@
     <link rel="stylesheet" href="Greta1.css">
 </head>
 <body>
+    <script src="Prj.js"></script>
     <header class="headerCon">
         <div class="logo">
             <img src="food-delivery-logo.jpg" alt="logo" height="75px" width="75px">
             <p class="catalog"> D-Diner </p>
         </div>
-        <ul class="content">
-            <li> Home Page </li>
-            <li> Menu </li>
-            <li> About </li>
-            <li> Contact </li>
-        </ul>
+        <div class="topNav" id="topNav">
+            <a href="#home" class="active"> Home </a>
+            <a href="#about"> About us </a>
+            <a href="#contact"> Contact us </a>
+            <a href="javascript:void(0);" class="icon" onclick="topNav()"> <i class="fa-bars"></i></a>
+        </div>
     </header>
     <main>
         <div class="bgPhoto">
-            <input class= "srch" type="text" placeholder="Search" style="height: 20px">
+            <input class= "srch" type="text" placeholder="Search" style="height: 20px;">
             <button class="bP"><img src="search.png" alt=""></button>
         </div>
         <table>
             <tr>
                 Menu:
             </tr>
-            <td><img src="STEAK.jpg" alt="Steak"></td>
+            <td><img class="stk" src="STEAK.jpg" alt="Steak"></td>
         </table>
         <footer>
             <div class="f">
@@ -40,27 +41,26 @@
                     <a href=""><img src="instagram.png" alt="i"></a>
                     <a href=""><img src="pinterest.png" alt="p"></a>
                 </div>
-</div>
-<div class="footermain">
-    <div class="footerleft">
-        <p> D-Diner is a classic restaurant since 1980s, popular for its exotic and tasty dishes. </p>
-        <p>spo bon</p>
-    </div>
-    <div class="footercenter">
-        <p>Support</p>
-        <p>Our Company</p>
-        <p>Contact</p>
-    </div>
-    <div class="footerright">
-        <p>Terms of use</p>
-        <p>Privacy Policy</p>
-    </div>
-</div>
-<div class="fundi">
-    <p>Copyright 2020 D-Diner Company. All rights reserved.</p>
-    <p>Designed by D.E</p>
-</div>
-</footer>
-</main>
+            </div>
+            <div class="footerMain">
+                <div class="footerLeft">
+                    <p> D-Diner is a classic restaurant since 1980s, popular for its exotic and tasty dishes. </p>
+                </div>
+                <div class="footerCenter">
+                    <p>Support</p>
+                    <p>Our Company</p>
+                    <p>Contact</p>
+                </div>
+                <div class="footerRight">
+                    <p>Terms of use</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+            <div class="fundi">
+                <p>Copyright 2020 D-Diner Company. All rights reserved.</p>
+                <p>Designed by D.E</p>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
