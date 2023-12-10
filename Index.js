@@ -11,3 +11,5 @@ if(!Name || !People || !date || !Message){
 }else{
     alert('Registration ended succesfully!');
 }
+alert('Registration failed!');
+}
