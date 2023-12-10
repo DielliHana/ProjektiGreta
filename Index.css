@@ -1,27 +1,34 @@
-@media screen and (max-width: 600px) {
-    .topNav a:not(.icon) {
-        display: none;
-    }
-
-    .topNav a.icon {
-        float: right;
-        display: block;
-    }
-
-    .topNav.responsive a:not(.icon) {
-        display: block;
-        float: none;
-        text-align: right;
-    }
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
 }
-.logo{
-    display: flex;
-    height: 35px;
-    width: 25px;
-}
-body,html{
+html{
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+main {
+    padding: 20px;
+}
+.logo{
+    height: 35px;
+    width: 25px;
+    color: black;
 }
 .bgPhoto-text-cont{
     background-image:url(homephto.jpg);
@@ -29,14 +36,6 @@ body,html{
     background-size:cover;
     min-height: 100%;
 }
-.modal {
-    display: none;
-}
-
-.m-modal {
-    display: none;
-}
-
 button{
     padding-top: 0%;
     margin-top: 0%;
@@ -48,8 +47,8 @@ button{
     margin-top: 5px;
 }
 .srch{
-    height: 30px;
-    width: 200px;
+    height: 25px;
+    width: 150px;
     padding: 5px; 
 }
 .bP{
@@ -58,32 +57,18 @@ button{
     padding: 5px;
     cursor: pointer;
 }
-.bP IMG{
+.bP img{
     width: 20px;
     height: 20px;
 }
-.topNav{
-    overflow: hidden;
-    justify-content: space-between;
-    padding: 15px;
-}
-.topNav a{
-    float: left;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 16px;
-    color: black;
-}
-.topNav a:hover {
-    background-color: rgb(196, 220, 240)
-    color(black);
-}
-.topNav .icon{
-    display: none;
-}
 footer{
-    margin-top: 20px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
@@ -95,35 +80,4 @@ h2{
 }
 h5{
     font-family: 'Courier New', Courier, monospace;
-}
-.ff{
-    display: flex;
-    justify-content: flex-end;
-    width: 35px;
-    height:35px;
-}
-.footermain{
-    display: flex;
-    justify-content: space-evenly;
-}
-.footerLeft{
-    width: 250px;
-}
-.fundi{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}.headerCon{
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Courier New', Courier, monospace;
-}
-.logo{
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 25px;
-}
-.content{
-    display: flex;
-    justify-content: space-between;
 }
