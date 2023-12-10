@@ -55,6 +55,9 @@ main {
     width: 200px;
     height: 200px;
 }
+.c-container-black{
+    clear: both;
+}
 footer{
     background-color: chocolate;
     color: white;
