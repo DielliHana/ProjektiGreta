@@ -6,23 +6,20 @@ function topNav(){
         x.className ="topNav";
     }
 }
-document.getElementById('menuButton').addEventListener('click', function(){
-    document.getElementById('menu').style.display='block';
-});
-document.getElementById('contactButton').addEventListener('click', function(){
-    document.getElementById('contact').style.display='block';
-});
-document.querySelector('#menu b-button c-display-topright large').addEventListener('click', function(){
-    document.getElementById('menu').style.display='none';
-});
-document.querySelector('#contact b-button c-display-topright l-large').addEventListener('click', function(){
-    document.getElementById('contact').style.display='none';
-});
-document.querySelector('form').addEventListener('submit', function(event){
-    event.preventDefault();
-
-    alert('Form submitted succesfully!');
-    this.reset();
-
-    document.getElementById('contact').style.display='none';
-});
+function menuButton(){
+    var menuModal = document.getElementById('menu');
+    menuModal.style.display = (menuModal.style.display === 'block') ? 'none' : 'block';
+}
+function contactButton(){
+    var contactModal = document.getElementById('contact');
+    contactModal.style.display = (contactModal.style.display === 'block') ? 'none' : 'block';
+}
+window.onclick = function (event) {
+    var modals = document.getElementsByClassName('m-modal-content');
+    for(var i =0; i<modals.length;i++){
+        var modal = modals[i];
+        if(event.target == modal){
+            modal.parentElement.style.display = 'none';
+        }
+    }
+};
