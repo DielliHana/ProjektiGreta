@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h2>DE-Diner</h2>
+        <h2>DE-Diner <img class="logo" src="logo.png" alt="logo"></h2>
         <nav>
             <ul>
                 <li><a href="Index.html">Home</a></li>
@@ -19,63 +19,51 @@
         </nav>
     </header>
     <main>
-        <!--main/topNav -->
-        <div class="bgPhoto-text-cont">
-            <div class="mid-display">
-                <p>DE-Diner <img class="logo" src="logo.png" alt="logo"></p>
-            </div>
-            <div class="display-cont">
-                <p><button id="menuButton" class="b-button" onclick="menuButton()">Menu</button></p>
-                <p><button id="contactButton" class="b-button" onclick="contactButton()">Contact</button></p>
-            </div>
-            <div class="display btmlf-cont">
-                <p class="orari"> Monday - Saturday: 08-22 </p>
-                <p class="rruga"> Rr. Vicianum, Dragodan - Prishtine </p>
-            </div>
-        </div>
         <!-- Menu Modal -->
-        <div id="menu" class="modal">
-            <div class="animate-zoom">
-                <div class="c-container b-black c-display-container">
-                    <span onclick="menuButton()" class="b-button c-display-topright large"> </span>
-                    <h1>Starters</h1>
-                </div>
-                <div class="c-container">
-                    <h5>Tomato Soup <b>2.50€</b> </h5>
-                    <h5>Fish Soup <b>3.00€</b> </h5>
-                    <h5>Bread and Butter <b>1.50€</b></h5>
-                    <h5>Chicken Salad <b>3.50€</b></h5>
-                    <h5>Mexican Salad <b>3.70€</b></h5>
-                    <h5>Arugula Salad <b>4.00€</b></h5>
-                    <h5>Russian Salad <b>2.50€</b></h5>
-                </div>
-                <div class="c-container b-black">
-                    <h1>Main Courses</h1>
-                </div>
-                <div class="c-container">
-                    <h5>Grilled Fish and Potatoes <b>8.50€</b></h5>
-                    <h5>Italian Pizza <b>5.50€</b></h5>
-                    <h5>Veggie Pasta <b>4.00€</b></h5>
-                    <h5>Chicken and Potatoes <b>6.50€</b></h5>
-                    <h5>Deluxe Burger <b>5.00€</b></h5>
-                    <h5>Stracciatella <b>8.00€</b></h5>
-                    <h5>Oysters <b>12.00€</b></h5>
-                    <h5>Beef Tartare <b>10.00€</b></h5>
-                    <h5>Chicken liver mousse <b>7.00€</b></h5>
-                    <h5>Celery Root Risotto <b>6.00€</b></h5>
-                    <h5>Bolognese Pasta <b>3.90€</b></h5>
-                </div>
-                <div class="c-container b-black">
-                    <h1>Desserts</h1>
-                </div>
-                <div class="c-container">
-                    <h5>Fruit Salad <b>2.50€</b></h5>
-                    <h5>Ice Cream <b>2.00€</b></h5>
-                    <h5>Chocolate Cake <b>4.00€</b></h5>
-                    <h5>Cheesecake <b>5.50€</b></h5>
+        <section id="menu">
+            <div id="menu" class="modal">
+                <div class="animate-zoom">
+                    <div class="c-container b-black c-display-container">
+                        <span onclick="menuButton()" class="b-button c-display-topright large"> </span>
+                        <h1>Starters</h1>
+                    </div>
+                    <div class="c-container">
+                        <h5>Tomato Soup <b>2.50€</b> </h5>
+                        <h5>Fish Soup <b>3.00€</b> </h5>
+                        <h5>Bread and Butter <b>1.50€</b></h5>
+                        <h5>Chicken Salad <b>3.50€</b></h5>
+                        <h5>Mexican Salad <b>3.70€</b></h5>
+                        <h5>Arugula Salad <b>4.00€</b></h5>
+                        <h5>Russian Salad <b>2.50€</b></h5>
+                    </div>
+                    <div class="c-container b-black">
+                        <h1>Main Courses</h1>
+                    </div>
+                    <div class="c-container">
+                        <h5>Grilled Fish and Potatoes <b>8.50€</b></h5>
+                        <h5>Italian Pizza <b>5.50€</b></h5>
+                        <h5>Veggie Pasta <b>4.00€</b></h5>
+                        <h5>Chicken and Potatoes <b>6.50€</b></h5>
+                        <h5>Deluxe Burger <b>5.00€</b></h5>
+                        <h5>Stracciatella <b>8.00€</b></h5>
+                        <h5>Oysters <b>12.00€</b></h5>
+                        <h5>Beef Tartare <b>10.00€</b></h5>
+                        <h5>Chicken liver mousse <b>7.00€</b></h5>
+                        <h5>Celery Root Risotto <b>6.00€</b></h5>
+                        <h5>Bolognese Pasta <b>3.90€</b></h5>
+                    </div>
+                    <div class="c-container b-black">
+                        <h1>Desserts</h1>
+                    </div>
+                    <div class="c-container">
+                        <h5>Fruit Salad <b>2.50€</b></h5>
+                        <h5>Ice Cream <b>2.00€</b></h5>
+                        <h5>Chocolate Cake <b>4.00€</b></h5>
+                        <h5>Cheesecake <b>5.50€</b></h5>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Contact Modal -->
         <div id="contact" class="m-modal">
             <div class="m-modal-content animate-zoom">
