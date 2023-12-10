@@ -1,3 +1,19 @@
+@media screen and (max-width: 600px) {
+    .topNav a:not(.icon) {
+        display: none;
+    }
+
+    .topNav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topNav.responsive a:not(.icon) {
+        display: block;
+        float: none;
+        text-align: left;
+    }
+}
 .headerCont{
     display: flex;
     justify-content:space-between;

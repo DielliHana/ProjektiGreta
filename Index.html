@@ -8,7 +8,6 @@
 </head>
 <body>
     <!-- topNav-->
-    <script src="Index.js"></script>
     <header class="headerCont">
         <div class="topNav" id="topNav">
             <input class= "srch" type="text" placeholder="Search" style="height: 30px;">
@@ -21,6 +20,21 @@
         </div>
     </header>
     <main>
+        <!--main-->
+        <div class="text-container">
+            <div class="mid-display">
+                <p>DE-Diner</p>
+                <img src="logo.png" alt="logo">
+            </div>
+            <div class="display-cont">
+                <p><button id="menuButton" class="b-button" onclick="menuButton()">Menu</button></p>
+                <p><button id="contactButton" class="b-button" onclick="contactButton()">Contact</button></p>
+            </div>
+            <div class="display btmlf-cont">
+                <p class="orari"> Monday - Saturday: 08-22 </p>
+                <p class="rruga"> Rr. Vicianum, Dragodan - Prishtine </p>
+            </div>
+        </div>
         <!-- Menu Modal -->
         <div id="menu" class="modal">
             <div class="animate-zoom">
@@ -64,20 +78,6 @@
                 </div>
             </div>
         </div>
-        <div class="text-container">
-            <div class="mid-display">
-                <p>DE-Diner</p>
-                <img src="logo.png" alt="logo">
-            </div>
-            <div class="display-cont">
-                <p><button id="menuButton" class="b-button" onclick="menuButton()">Menu</button></p>
-                <p><button id="contactButton" class="b-button" onclick="contactButton()">Contact</button></p>
-            </div>
-            <div class="display btmlf-cont">
-                <p class="orari"> Monday - Saturday: 08-22 </p>
-                <p class="rruga"> Rr. Vicianum, Dragodan - Prishtine </p>
-            </div>
-        </div>
         <!-- Contact Modal -->
         <div id="contact" class="m-modal">
             <div class="m-modal-content animate-zoom">
@@ -111,5 +111,6 @@
             </div> 
         </footer>
     </main>
+    <script src="Index.js"></script>
 </body>
 </html>
