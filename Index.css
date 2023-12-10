@@ -11,66 +11,76 @@
     .topNav.responsive a:not(.icon) {
         display: block;
         float: none;
-        text-align: left;
+        text-align: right;
     }
-}
-.headerCont{
-    display: flex;
-    justify-content:space-between;
-    font-family: 'Courier New', Courier, monospace;
 }
 .logo{
     display: flex;
     height: 35px;
     width: 25px;
 }
-body{
+body,html{
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
 }
 .bgPhoto-text-cont{
-    display: flex;
     background-image:url(homephto.jpg);
     background-position: center;
     background-size:cover;
     min-height: 100%;
 }
+.modal {
+    display: none;
+}
+
+.m-modal {
+    display: none;
+}
+
 button{
     padding-top: 0%;
     margin-top: 0%;
     width: 30px;
     border: inset 0px;
 }
-
+.search-container{
+    float: right;
+    margin-top: 5px;
+}
 .srch{
-    margin: 200px;
-    width: auto;
-    margin-left: 20px;
-    margin-top: 0px;
-    
+    height: 30px;
+    width: 200px;
+    padding: 5px; 
 }
 .bP{
     background-color: navy;
-    display: flex;
-    margin-top: 125px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.bP IMG{
+    width: 20px;
+    height: 20px;
 }
 .topNav{
     overflow: hidden;
     justify-content: space-between;
+    padding: 15px;
+}
+.topNav a{
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: black;
 }
 .topNav a:hover {
     background-color: rgb(196, 220, 240)
     color(black);
 }
-.topNav a.active {
-    color: black;
-}
 .topNav .icon{
     display: none;
-}
-.stk{
-    width: 400px;
-    height: 350px;
 }
 footer{
     margin-top: 20px;
