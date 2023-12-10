@@ -1,27 +1,7 @@
-@media screen and (max-width:600px){
-    .topNav a:not(:first-child){display: none;}
-    .topNav a.icon {
-        float: right;
-        display: block;
-    }
-}
-@media screen and (max-width:600px){
-    .topNav.responsive {position: relative;}
-    .topNav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .topNav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-}
 .headerCont{
     display: flex;
     justify-content:space-between;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 .logo{
     display: flex;
@@ -67,6 +47,7 @@ button{
 }
 .topNav{
     overflow: hidden;
+    justify-content: space-between;
 }
 .topNav a:hover {
     background-color: rgb(196, 220, 240)
@@ -116,7 +97,7 @@ h5{
 }.headerCon{
     display: flex;
     justify-content: space-between;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 .logo{
     display: flex;
