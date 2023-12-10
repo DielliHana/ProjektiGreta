@@ -85,10 +85,16 @@ button{
 footer{
     margin-top: 20px;
 }
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
 h2{
     display: inline-flex;
    padding-right: 300px;
     padding-left: 250px;
+}
+h5{
+    font-family: 'Courier New', Courier, monospace;
 }
 .ff{
     display: flex;
