@@ -50,8 +50,9 @@ button{
 }
 
 .srch{
-    margin-top: 125px;
-    padding: 3px;
+    margin top: 30px;
+    padding: auto;
+    
 }
 .bP{
     background-color: darkgreen;
