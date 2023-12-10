@@ -41,8 +41,12 @@ main {
 }
 .foodP{
     float: left;
-    border: solid 1px;
+    border: solid 1px #fff;
     display: inline-block;
+    margin-right: 10px;
+}
+.food-item{
+    clear: both;
 }
 .food{
     float: right;
