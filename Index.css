@@ -34,7 +34,21 @@ main {
 }
 .menu{
     text-align: center;
-    
+
+}
+.menu *{
+    box-sizing: border-box;
+}
+.foodP{
+    float: left;
+    border: solid 1px;
+    display: inline-block;
+}
+.food{
+    float: right;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
 }
 footer{
     background-color: chocolate;
