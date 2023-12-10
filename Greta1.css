@@ -55,7 +55,7 @@ button{
     
 }
 .bP{
-    background-color: darkgreen;
+    background-color: navy;
     display: flex;
     margin-top: 125px;
 }
@@ -63,12 +63,11 @@ button{
     overflow: hidden;
 }
 .topNav a:hover {
-    background-color: aliceblue
+    background-color: rgb(196, 220, 240)
     color(black);
 }
 .topNav a.active {
-    background-color: red;
-    color: white;
+    color: black;
 }
 .topNav .icon{
     display: none;
