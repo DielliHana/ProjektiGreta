@@ -21,10 +21,9 @@
     </header>
     <main>
         <!--main-->
-        <div class="text-container">
+        <div class="bgPhoto-text-cont">
             <div class="mid-display">
-                <p>DE-Diner</p>
-                <img src="logo.png" alt="logo">
+                <p>DE-Diner <img class="logo" src="logo.png" alt="logo"></p>
             </div>
             <div class="display-cont">
                 <p><button id="menuButton" class="b-button" onclick="menuButton()">Menu</button></p>
@@ -82,7 +81,7 @@
         <div id="contact" class="m-modal">
             <div class="m-modal-content animate-zoom">
                 <div class="c-container b-black">
-                    <span onclick="document.getElementById('contact').style.display='none'" class="b-button c-display-topright l-large">x</span>
+                    <span onclick="contactButton()" class="b-button c-display-topright l-large">x</span>
                     <h1>Contact</h1>
                 </div>
                 <div class="c-container">

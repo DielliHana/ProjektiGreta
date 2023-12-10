@@ -21,21 +21,14 @@
 }
 .logo{
     display: flex;
-    justify-content: flex-end;
-    margin-left: 25px;
-}
-.content{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    width: 20%;
-    margin-right: 25px;
+    height: 35px;
+    width: 25px;
 }
 body{
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
 }
-.bgPhoto{
+.bgPhoto-text-cont{
     display: flex;
     background-image:url(homephto.jpg);
     background-position: center;
