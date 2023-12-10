@@ -8,7 +8,7 @@
 </head>
 <body>
     <script src="Prj.js"></script>
-    <header class="headerCon">
+    <header class="headerCont">
         <div class="logo">
             <img src="logo.png" alt="logo" height="75px" width="75px">
             <p class="catalog"> DE-Diner </p>
@@ -23,14 +23,22 @@
         </div>
     </header>
     <main>
+        <div class="text-container">
+            <div class="mid-display">
+                <p>DE-Diner</p>
+                <img src="logo.png" alt="logo">
+            </div>
+            <div class="display-cont">
+                <p><button onclick="document.getElementById('menu').style.display='block'" class="b-button">menu</button></p>
+                <p><button onclick="document.getElementById('contact').style.display='block'" class="b-button">Contact</button></p>
+            </div>
+            <div class="display btmlf-cont">
+                <p class="orari"> Monday - Saturday: 08-22 </p>
+                <p class="rruga"> Rr. Vicianum, Dragodan - Prishtine </p>
+            </div>
+        </div>
+        
         <div class="bgPhoto"></div>
-        <table>
-            <tr>
-                Menu:
-            </tr>
-            <td><img class="stk" src="STEAK.jpg" alt="Steak"></td>
-            <td>Grilled Steak</td>
-        </table>
         <footer>
             <div class="f">
                 <h2>About DE-Diner</h2>

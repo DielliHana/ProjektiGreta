@@ -18,7 +18,7 @@
         text-align: left;
     }
 }
-.headerCon{
+.headerCont{
     display: flex;
     justify-content:space-between;
     font-family: 'Times New Roman', Times, serif;
