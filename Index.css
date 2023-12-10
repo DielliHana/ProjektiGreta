@@ -8,7 +8,7 @@ html{
     font-family: 'Courier New', Courier, monospace;
 }
 header{
-    background-color: orangered;
+    background-color: chocolate;
     color: white;
     text-align: center;
     padding: 10px;
@@ -62,7 +62,7 @@ button{
     height: 20px;
 }
 footer{
-    background-color: orangered;
+    background-color: chocolate;
     color: white;
     text-align: center;
     padding: 10px;
